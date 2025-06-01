@@ -1,0 +1,15 @@
+addi x1, x0, 100
+addi x2, x0, 200
+addi x3, x1, 0
+addi x8, x0, 99
+addi x9, x0, 42
+sub x4, x2, x8
+or x5, x1, x2
+andi x6, x1, 15
+srl x7, x1, x6
+sh x1, 0(x2)
+lh x10, 0(x2)
+beq x4, x0, 8
+addi x5, x0, 99
+addi x6, x0, 77
+addi x7, x0, 42
